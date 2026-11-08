@@ -62,12 +62,15 @@ To replicate or build upon this spatial analysis pipeline:
 
 ---
 
-## 📋 Policy Alignment
+## Discussion & Future Work
 
-Findings from this project directly inform urban planning strategies under the **Auckland Council Open Space, Sport and Recreation Strategy**, providing actionable spatial evidence to guide equitable green infrastructure investments across Auckland.
+### Spatial Equity Insights
+The preliminary integration of 2023 New Zealand Deprivation (NZDep23) scores with 400m and 800m network service areas highlights distinct spatial inequalities in Tāmaki Makaurau Auckland's urban green space provision. Consistent with wider environmental justice literature[cite: 1], our network distance analysis demonstrates that accessibility deficits in high-deprivation areas—particularly across parts of South Auckland—are heavily driven by street network connectivity and park distribution barriers rather than the total absence of green space. 
 
----
+### Methodological Considerations & Limitations
+* **Network Routing & Crowdsourced Data:** Utilizing OpenStreetMap (OSM) pedestrian networks provides high-resolution coverage, but inherent variations in crowdsourced data completeness[cite: 1] require rigorous topology validation.
+* **Spatial Scale:** Aggregating analysis at the Statistical Area 2 (SA2) level effectively captures regional neighborhood variation but can mask hyper-local disparities or micro-climatic green space access within individual communities[cite: 1].
+* **Park Typology:** Restricting the inventory to publicly accessible council reserves ensures a clear focus on public health equity, though it excludes semi-public or institutional open spaces that may supplement local utility.
 
-## 📄 License & Attribution
-
-This repository is maintained for academic research purposes within Environmental Science (ENVSCI 701) at the University of Auckland. Primary datasets remain the property of their respective providers (Auckland Council, University of Otago / NZDep23, OpenStreetMap contributors).
+### Policy Implications & Next Steps
+These findings provide empirical spatial evidence to support Auckland Council's open space planning under the *Manaaki Tāmaki Makaurau* strategy. Future iterations of this pipeline will incorporate fine-resolution demographic weighting, multi-modal transit accessibility layers, and temporal usage metrics to further refine urban equity planning across Aotearoa.
