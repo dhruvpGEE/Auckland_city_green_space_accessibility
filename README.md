@@ -65,11 +65,11 @@ To replicate or build upon this spatial analysis pipeline:
 ## Discussion & Future Work
 
 ### Spatial Equity Insights
-The preliminary integration of 2023 New Zealand Deprivation (NZDep23) scores with 400m and 800m network service areas highlights distinct spatial inequalities in Tāmaki Makaurau Auckland's urban green space provision. Consistent with wider environmental justice literature[cite: 1], our network distance analysis demonstrates that accessibility deficits in high-deprivation areas—particularly across parts of South Auckland—are heavily driven by street network connectivity and park distribution barriers rather than the total absence of green space. 
+The preliminary integration of 2023 New Zealand Deprivation (NZDep23) scores with 400m and 800m network service areas highlights distinct spatial inequalities in Tāmaki Makaurau Auckland's urban green space provision. Consistent with wider environmental justice literature, our network distance analysis demonstrates that accessibility deficits in high deprivation areas particularly across parts of South Auckland—are heavily driven by street network connectivity and park distribution barriers rather than the total absence of green space. 
 
 ### Methodological Considerations & Limitations
-* **Network Routing & Crowdsourced Data:** Utilizing OpenStreetMap (OSM) pedestrian networks provides high-resolution coverage, but inherent variations in crowdsourced data completeness[cite: 1] require rigorous topology validation.
-* **Spatial Scale:** Aggregating analysis at the Statistical Area 2 (SA2) level effectively captures regional neighborhood variation but can mask hyper-local disparities or micro-climatic green space access within individual communities[cite: 1].
+* **Network Routing & Crowdsourced Data:** Utilizing OpenStreetMap (OSM) pedestrian networks provides high-resolution coverage, but inherent variations in crowdsourced data completeness require rigorous topology validation.
+* **Spatial Scale:** Aggregating analysis at the Statistical Area 2 (SA2) level effectively captures regional neighborhood variation but can mask hyper local disparities or micro-climatic green space access within individual communities.
 * **Park Typology:** Restricting the inventory to publicly accessible council reserves ensures a clear focus on public health equity, though it excludes semi-public or institutional open spaces that may supplement local utility.
 
 ### Policy Implications & Next Steps
